@@ -4,7 +4,7 @@ import styles from "./PropertyTypes.module.css";
 export default function PropertyTypes() {
   return (
     <>
-      <section className={`${styles["main-section"]}`}>
+      <section id="property_types" className={`${styles["main-section"]}`}>
         {/* Title Group */}
 
         <div className={`${styles["title-group"]}`}>
@@ -32,6 +32,9 @@ export default function PropertyTypes() {
   );
 }
 
+/**
+ * Single Grid Item in the Property Types Section
+ */
 function GridItem(props: { iconPath: string; title: string }) {
   return (
     <>

@@ -13,6 +13,7 @@ export default function PrimaryButton(props: PrimaryButtonProps) {
         className={`${styles.button} ${
           props.variant === "outlined" ? styles.outlined : ""
         }`}
+        onClick={props.onClick}
       >
         {props.children}
       </button>

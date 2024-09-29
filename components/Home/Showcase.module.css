@@ -3,9 +3,11 @@
   flex-direction: column;
   background: url("/showcase-background.jpeg"), #7261ffcf;
   background-blend-mode: lighten;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.5rem 1.125rem;
+  align-items: center;
 }
 
 .group {
@@ -15,6 +17,8 @@
   border-radius: 0.3125rem;
   padding: 3.125rem 1.25rem;
   background-color: white;
+  max-width: 1500px;
+  width: 100%;
 }
 
 .title {
@@ -32,8 +36,14 @@
 
 .card {
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 3.25px 4.06px #84848433;
+  box-shadow: 0px 0px 3.25px 4.06px #8484841c;
   overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 3.25px 4.06px #84848466;
+  scale: 1.02;
 }
 
 .image-container {

@@ -6,6 +6,9 @@ import PrimaryButton from "../Button/PrimaryButton";
 import { useState } from "react";
 import IconButton from "../IconButton/IconButton";
 
+/**
+ * Main Navigation Links used in the Navbar (Both Desktop and Mobile)
+ */
 function NavLinks() {
   return (
     <>
@@ -48,6 +51,7 @@ export default function Navbar() {
         {/* Logo */}
         <Image src="/logo.png" alt="SellCRE" width={110} height={24} priority />
 
+        {/* Desktop NavLinks */}
         <nav className={styles["desktop-nav-links"]}>
           <NavLinks />
         </nav>

@@ -50,6 +50,15 @@
   height: 5.625rem;
   width: 7.75rem;
   border-style: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.grid-item:hover {
+  opacity: 0.9;
+}
+.grid-item:active {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {

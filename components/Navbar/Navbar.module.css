@@ -49,6 +49,14 @@
   align-items: center;
   gap: 0.25rem;
   border-bottom: 1px solid var(--border);
+  transition: all 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--brand);
+}
+.nav-links a:active {
+  opacity: 0.5;
 }
 
 .nav-link--bold {

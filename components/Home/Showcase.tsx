@@ -5,11 +5,15 @@ import PrimaryButton from "../Button/PrimaryButton";
 export default function Showcase() {
   return (
     <>
-      <section className={`${styles["main-section"]}`}>
+      <section id="showcase" className={`${styles["main-section"]}`}>
         <div className={`${styles["group"]}`}>
+          {/* Title */}
+
           <div className={`${styles["title"]}`}>
             Sample OMs created with our platform
           </div>
+
+          {/* List */}
 
           <section className={`${styles["items-group"]}`}>
             <Card
@@ -35,6 +39,9 @@ export default function Showcase() {
   );
 }
 
+/**
+ * Single Card in the Showcase Section
+ */
 function Card(props: {
   imagePath: string;
   title: string;

@@ -6,7 +6,9 @@ export default function HomeBanner() {
   return (
     <>
       <div className={`${styles["bg-image"]}`}>
-        <section className={`${styles["main"]}`}>
+        <section id="home_banner" className={`${styles["main"]}`}>
+          {/* Text */}
+
           <div className={`${styles["head-group"]}`}>
             <div className={`${styles["heading"]}`}>
               <span>Sell CRE Faster</span> with OMs & Ads created in{" "}
@@ -50,6 +52,8 @@ export default function HomeBanner() {
               </div>
             </div>
           </div>
+
+          {/* Image */}
 
           <div className={`${styles["image-container"]}`}>
             <Image
